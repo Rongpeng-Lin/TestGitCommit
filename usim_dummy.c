@@ -666,7 +666,10 @@ UINT16 const ausUSIMReadLen[] =
 	/*0x23*/ sizeof(ucRead6f3c),
 	/*0x24*/ sizeof(ucRead6f47),
 	/*0x25*/ sizeof(ucRead6f38_Sms),
-	/*0x26*/ sizeof(ucRead6f38_Noehplmn)
+	/*0x26*/ sizeof(ucRead6f38_Noehplmn),
+	/*0x27*/ sizeof(ucRead6fdc_regist_on_last_plmn),
+	/*0x28*/ sizeof(ucRead6f38_NoPLMNwACT),
+	/*0x29*/ sizeof(ucRead6fdb_changeEHPLMNPI)
 };
 VOID GetUsimResultInfoDummy(UINT8 *input_str, UINT8 *output_str, UINT32 *output_len)
 {
